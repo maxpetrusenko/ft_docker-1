@@ -5,6 +5,7 @@ Introduction to Docker
 
 ## Setup docker-machine:
 ```
+docker-machine rm -f default
 export MACHINE_STORAGE_PATH=/tmp
 docker-machine create --driver virtualbox default
 docker-machine env default
