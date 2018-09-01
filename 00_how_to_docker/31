@@ -1,0 +1,5 @@
+docker service rm $(docker service ls -q)
+
+#docker system prune -a -f
+#or
+#docker service ls | grep -v '^ID' | awk '{print $1}' | xargs docker service rm
