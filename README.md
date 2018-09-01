@@ -2,7 +2,6 @@
 # Docker
 
 Introduction to Docker
-you nedd to install virtual machine and docker
 
 ## Setup docker-machine:
 ```
